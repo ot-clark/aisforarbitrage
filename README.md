@@ -1,36 +1,102 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# A is for Arbitrage
 
-## Getting Started
+A modern, tech-forward landing page for an AI-powered ad arbitrage platform. Built with Next.js 15, React 19, and Tailwind CSS.
 
-First, run the development server:
+## 🚀 Features
+
+- **Modern Design**: Dark theme with gradient effects and glassmorphism
+- **Interactive Elements**: Live ROI display with real-time updates
+- **Responsive**: Optimized for all devices
+- **Animations**: Smooth transitions and animated background effects
+- **Ad Arbitrage Focus**: Specifically designed for advertising arbitrage across multiple platforms
+
+## 🛠️ Tech Stack
+
+- **Next.js 15** - React framework with App Router
+- **React 19** - Latest React features
+- **Tailwind CSS 4** - Utility-first CSS framework
+- **Custom Animations** - CSS keyframes for blob effects
+
+## 🎯 Key Sections
+
+- **Hero Section**: Live ROI display and call-to-action
+- **Features**: Multi-platform, AI-powered, Profit maximization
+- **Technology**: How the arbitrage system works
+- **Platforms**: Supported ad networks (Facebook, Google, TikTok, 50+ more)
+- **CTA**: Get started section
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js 18+ 
+- npm or yarn
+
+### Installation
 
 ```bash
+# Clone the repository
+git clone https://github.com/ot-clark/aisforarbitrage.git
+
+# Navigate to the project
+cd aisforarbitrage
+
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the landing page.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Build for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+# Build the application
+npm run build
 
-## Learn More
+# Start production server
+npm start
+```
 
-To learn more about Next.js, take a look at the following resources:
+## 🌐 Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Vercel (Recommended)
+1. Connect your GitHub repository to Vercel
+2. Vercel will automatically detect Next.js and deploy
+3. Add your custom domain in Vercel dashboard
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Netlify
+1. Connect your GitHub repository to Netlify
+2. Build command: `npm run build`
+3. Publish directory: `.next`
+4. Add your custom domain in Netlify dashboard
 
-## Deploy on Vercel
+## 📱 Features
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Live Performance Metrics**: Real-time ROI display
+- **Multi-Platform Support**: Facebook, Google, TikTok, and 50+ ad networks
+- **AI-Powered**: Machine learning for price difference detection
+- **Responsive Design**: Works on all devices
+- **Modern UI**: Glassmorphism effects and smooth animations
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🎨 Design Elements
+
+- Dark gradient background
+- Animated blob effects
+- Glassmorphism cards
+- Gradient text effects
+- Smooth hover animations
+- Tech-forward aesthetic
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+---
+
+Built with ❤️ for the future of ad arbitrage
