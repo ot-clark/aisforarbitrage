@@ -1,102 +1,59 @@
-# A is for Arbitrage
+# Strategic Insider
 
-A modern, tech-forward landing page for an AI-powered ad arbitrage platform. Built with Next.js 15, React 19, and Tailwind CSS.
+A modern blog platform highlighting innovative products in tech and AI. Built with Next.js and Tailwind CSS.
 
-## 🚀 Features
+## Features
 
-- **Modern Design**: Dark theme with gradient effects and glassmorphism
-- **Interactive Elements**: Live ROI display with real-time updates
-- **Responsive**: Optimized for all devices
-- **Animations**: Smooth transitions and animated background effects
-- **Ad Arbitrage Focus**: Specifically designed for advertising arbitrage across multiple platforms
+- **Clean, Modern Design**: Red color scheme with Montserrat typography
+- **Responsive Layout**: Optimized for all devices
+- **Blog Feed**: Showcase latest posts and featured content
+- **Product Reviews**: In-depth analysis of innovative tech products
+- **SEO Optimized**: Built with search engine optimization in mind
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-- **Next.js 15** - React framework with App Router
-- **React 19** - Latest React features
-- **Tailwind CSS 4** - Utility-first CSS framework
-- **Custom Animations** - CSS keyframes for blob effects
+- **Next.js 15**: React framework with App Router
+- **Tailwind CSS 4**: Utility-first CSS framework
+- **Montserrat Font**: Clean, modern typography
+- **Responsive Design**: Mobile-first approach
 
-## 🎯 Key Sections
+## Getting Started
 
-- **Hero Section**: Live ROI display and call-to-action
-- **Features**: Multi-platform, AI-powered, Profit maximization
-- **Technology**: How the arbitrage system works
-- **Platforms**: Supported ad networks (Facebook, Google, TikTok, 50+ more)
-- **CTA**: Get started section
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Node.js 18+ 
-- npm or yarn
-
-### Installation
-
+1. Install dependencies:
 ```bash
-# Clone the repository
-git clone https://github.com/ot-clark/aisforarbitrage.git
-
-# Navigate to the project
-cd aisforarbitrage
-
-# Install dependencies
 npm install
+```
 
-# Run development server
+2. Run the development server:
+```bash
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to view the landing page.
+3. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-### Build for Production
+## Project Structure
 
-```bash
-# Build the application
-npm run build
-
-# Start production server
-npm start
+```
+app/
+├── globals.css          # Global styles and Tailwind config
+├── layout.js            # Root layout with header/footer
+├── page.js              # Home page with blog feed
+└── descript/
+    └── page.js          # Descript product review
 ```
 
-## 🌐 Deployment
+## Pages
 
-### Vercel (Recommended)
-1. Connect your GitHub repository to Vercel
-2. Vercel will automatically detect Next.js and deploy
-3. Add your custom domain in Vercel dashboard
+- **Home (`/`)**: Landing page with featured posts and blog feed
+- **Descript Review (`/descript`)**: In-depth review of Descript video editing tool
 
-### Netlify
-1. Connect your GitHub repository to Netlify
-2. Build command: `npm run build`
-3. Publish directory: `.next`
-4. Add your custom domain in Netlify dashboard
+## Design System
 
-## 📱 Features
+- **Primary Color**: Red (#dc2626)
+- **Typography**: Montserrat (300-800 weights)
+- **Layout**: Clean, minimal design inspired by modern tech blogs
+- **Components**: Custom button styles and responsive grid layouts
 
-- **Live Performance Metrics**: Real-time ROI display
-- **Multi-Platform Support**: Facebook, Google, TikTok, and 50+ ad networks
-- **AI-Powered**: Machine learning for price difference detection
-- **Responsive Design**: Works on all devices
-- **Modern UI**: Glassmorphism effects and smooth animations
+## Contributing
 
-## 🎨 Design Elements
-
-- Dark gradient background
-- Animated blob effects
-- Glassmorphism cards
-- Gradient text effects
-- Smooth hover animations
-- Tech-forward aesthetic
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
----
-
-Built with ❤️ for the future of ad arbitrage
+This is a personal project showcasing innovative tech products. The focus is on clean, informative content that helps creators discover new tools and technologies.
