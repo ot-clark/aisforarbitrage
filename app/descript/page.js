@@ -254,7 +254,7 @@ export default function DescriptPage() {
                 Q: Can I use Descript for podcasts?
               </h3>
               <p className="text-gray-600">
-                A: Absolutely—it's built for podcasters and video creators alike.
+                A: Absolutely—it&apos;s built for podcasters and video creators alike.
               </p>
             </div>
           </div>

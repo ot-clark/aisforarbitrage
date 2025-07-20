@@ -1,4 +1,5 @@
 import './globals.css'
+import Link from 'next/link'
 
 export const metadata = {
   title: 'Strategic Insider - Innovative Tech & AI Products',
@@ -28,9 +29,9 @@ export default function RootLayout({ children }) {
               </div>
               </div>
               <nav className="hidden md:flex space-x-8">
-                <a href="/" className="text-gray-600 hover:text-red-600 font-medium transition-colors">Home</a>
-                <a href="/blog" className="text-gray-600 hover:text-red-600 font-medium transition-colors">Blog</a>
-                <a href="/about" className="text-gray-600 hover:text-red-600 font-medium transition-colors">About</a>
+                <Link href="/" className="text-gray-600 hover:text-red-600 font-medium transition-colors">Home</Link>
+                <Link href="/blog" className="text-gray-600 hover:text-red-600 font-medium transition-colors">Blog</Link>
+                <Link href="/about" className="text-gray-600 hover:text-red-600 font-medium transition-colors">About</Link>
               </nav>
               <div className="md:hidden">
                 <button className="text-gray-600 hover:text-red-600">
