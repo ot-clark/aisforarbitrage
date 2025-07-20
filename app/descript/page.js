@@ -4,7 +4,7 @@ export default function DescriptPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-red-50 to-white py-20">
+      <section className="bg-gradient-to-b from-[#f0abfc] to-[#1dddbf] py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <div className="flex items-center justify-center mb-8">
@@ -25,9 +25,14 @@ export default function DescriptPage() {
             <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
               Descript lets you edit audio and video like a text doc. Join 10,000+ creators.
             </p>
-            <button className="btn-primary text-lg px-8 py-4">
+            <a 
+              href="https://get.descript.com/thestrategicinsider"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-[#f0abfc] hover:bg-[#e091e8] text-white text-lg px-8 py-4 rounded-lg font-semibold transition-all duration-300 inline-block"
+            >
               🔘 Start Free With Descript
-            </button>
+            </a>
           </div>
         </div>
       </section>
@@ -46,24 +51,24 @@ export default function DescriptPage() {
           
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center">
-              <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-red-600 text-2xl">✅</span>
+              <div className="w-16 h-16 bg-[#f8d4fd] rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-[#e091e8] text-2xl">✅</span>
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Transcribe audio instantly</h3>
               <p className="text-gray-600">Convert speech to text with AI-powered accuracy</p>
             </div>
             
             <div className="text-center">
-              <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-red-600 text-2xl">✅</span>
+              <div className="w-16 h-16 bg-[#f8d4fd] rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-[#e091e8] text-2xl">✅</span>
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Remove filler words in one click</h3>
               <p className="text-gray-600">Clean up your content automatically</p>
             </div>
             
             <div className="text-center">
-              <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-red-600 text-2xl">✅</span>
+              <div className="w-16 h-16 bg-[#f8d4fd] rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-[#e091e8] text-2xl">✅</span>
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Screen recording + podcast editing</h3>
               <p className="text-gray-600">All-in-one app for creators</p>
@@ -203,14 +208,14 @@ export default function DescriptPage() {
           </h2>
           
           <div className="space-y-8">
-            <div className="bg-gradient-to-r from-red-50 to-white rounded-xl p-8 border border-red-100">
+            <div className="bg-gradient-to-r from-[#f8d4fd] to-white rounded-xl p-8 border border-[#f0abfc]">
               <blockquote className="text-lg text-gray-700 mb-4">
                 &ldquo;I went from dreading edits to loving them. Descript is a game changer!&rdquo;
               </blockquote>
               <cite className="text-sm text-gray-600 font-medium">– Sarah K., Podcaster</cite>
             </div>
             
-            <div className="bg-gradient-to-r from-red-50 to-white rounded-xl p-8 border border-red-100">
+            <div className="bg-gradient-to-r from-[#f8d4fd] to-white rounded-xl p-8 border border-[#f0abfc]">
               <blockquote className="text-lg text-gray-700 mb-4">
                 &ldquo;My team cut our editing time by 60%. Can&apos;t recommend it enough.&rdquo;
               </blockquote>
@@ -221,14 +226,19 @@ export default function DescriptPage() {
       </section>
 
       {/* Final CTA Section */}
-      <section className="py-16 bg-gradient-to-br from-red-50 to-white">
+      <section className="py-16 bg-gradient-to-b from-[#f0abfc] to-[#1dddbf]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
             📣 Start Editing Smarter Today
           </h2>
-          <button className="btn-primary text-lg px-8 py-4">
-            🔘 Try Descript Free Now
-          </button>
+                      <a 
+              href="https://get.descript.com/thestrategicinsider"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-[#f0abfc] hover:bg-[#e091e8] text-white text-lg px-8 py-4 rounded-lg font-semibold transition-all duration-300 inline-block"
+            >
+              🔘 Try Descript Free Now
+            </a>
         </div>
       </section>
 
@@ -266,7 +276,7 @@ export default function DescriptPage() {
                     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
               <Link 
                 href="/"
-                className="text-red-600 hover:text-red-700 font-medium"
+                className="text-[#f0abfc] hover:text-[#e091e8] font-medium"
               >
                 ← Back to Strategic Insider
               </Link>

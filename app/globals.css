@@ -4,10 +4,10 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --primary: #dc2626;
-  --primary-dark: #b91c1c;
-  --primary-light: #fecaca;
-  --accent: #fee2e2;
+  --primary: #f0abfc;
+  --primary-dark: #e091e8;
+  --primary-light: #f8d4fd;
+  --accent: #f0f9ff;
 }
 
 @theme inline {
@@ -24,10 +24,10 @@
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
-    --primary: #ef4444;
-    --primary-dark: #dc2626;
-    --primary-light: #fca5a5;
-    --accent: #450a0a;
+    --primary: #f0abfc;
+    --primary-dark: #e091e8;
+    --primary-light: #f8d4fd;
+    --accent: #1a0a1a;
   }
 }
 
