@@ -72,15 +72,8 @@ export default function Home() {
                 </div>
                 <div className="lg:w-1/3">
                   <div className="bg-white rounded-xl h-64 flex items-center justify-center border border-gray-200">
-                    <div className="flex items-center space-x-3">
-                      <div className="w-16 h-16 bg-blue-600 rounded-lg flex items-center justify-center">
-                        <div className="w-10 h-8 relative">
-                          <div className="absolute top-0 left-0 w-8 h-1 bg-white rounded-full"></div>
-                          <div className="absolute top-3 left-0 w-5 h-1 bg-white rounded-full"></div>
-                          <div className="absolute top-6 left-0 w-8 h-1 bg-white rounded-full"></div>
-                        </div>
-                      </div>
-                      <span className="text-2xl font-bold text-blue-900">descript</span>
+                    <div className="flex items-center space-x-3 justify-center">
+                      <img src="/descript-logo.png" alt="Descript company logo" style={{ width: '250px', maxWidth: '100%' }} />
                     </div>
                   </div>
                 </div>

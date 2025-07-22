@@ -7,17 +7,8 @@ export default function DescriptPage() {
       <section className="bg-gradient-to-b from-[#f0abfc] to-[#1dddbf] py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <div className="flex items-center justify-center mb-8">
-              <div className="flex items-center space-x-3">
-                <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center">
-                  <div className="w-8 h-6 relative">
-                    <div className="absolute top-0 left-0 w-6 h-1 bg-white rounded-full"></div>
-                    <div className="absolute top-2 left-0 w-4 h-1 bg-white rounded-full"></div>
-                    <div className="absolute top-4 left-0 w-6 h-1 bg-white rounded-full"></div>
-                  </div>
-                </div>
-                <span className="text-2xl font-bold text-blue-900">descript</span>
-              </div>
+            <div className="flex items-center space-x-3 justify-center">
+              <img src="/descript-logo.png" alt="Descript company logo" style={{ width: '400px', maxWidth: '100%', marginBottom: '2rem' }} />
             </div>
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
               Edit Videos Like a Pro—No Experience Needed
@@ -208,14 +199,14 @@ export default function DescriptPage() {
           </h2>
           
           <div className="space-y-8">
-            <div className="bg-gradient-to-r from-[#f8d4fd] to-white rounded-xl p-8 border border-[#f0abfc]">
+            <div className="bg-white rounded-xl p-8 border border-[#f0abfc]">
               <blockquote className="text-lg text-gray-700 mb-4">
                 &ldquo;I went from dreading edits to loving them. Descript is a game changer!&rdquo;
               </blockquote>
               <cite className="text-sm text-gray-600 font-medium">– Sarah K., Podcaster</cite>
             </div>
             
-            <div className="bg-gradient-to-r from-[#f8d4fd] to-white rounded-xl p-8 border border-[#f0abfc]">
+            <div className="bg-white rounded-xl p-8 border border-[#f0abfc]">
               <blockquote className="text-lg text-gray-700 mb-4">
                 &ldquo;My team cut our editing time by 60%. Can&apos;t recommend it enough.&rdquo;
               </blockquote>
